@@ -19,7 +19,7 @@ In this lesson, we'll be setting up a blog admin panel so that `Post` objects ca
 First, we'll set up associated models, just like in the preceding lesson:
 
 ```ruby
-# app/models/post.rb
+# app/models/post.rb 
 
 class Post < ActiveRecord::Base
   belongs_to :category
